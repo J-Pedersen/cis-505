@@ -1,0 +1,29 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "C:/Users/jeff1/Java/javafx-sdk-24.0.1/lib/*.jar",
+        "c:\\Users\\jeff1\\Java\\javafx-sdk-24.0.1\\lib\\javafx.base.jar",
+        "c:\\Users\\jeff1\\Java\\javafx-sdk-24.0.1\\lib\\javafx.controls.jar",
+        "c:\\Users\\jeff1\\Java\\javafx-sdk-24.0.1\\lib\\javafx.fxml.jar",
+        "c:\\Users\\jeff1\\Java\\javafx-sdk-24.0.1\\lib\\javafx.graphics.jar",
+        "c:\\Users\\jeff1\\Java\\javafx-sdk-24.0.1\\lib\\javafx.media.jar",
+        "c:\\Users\\jeff1\\Java\\javafx-sdk-24.0.1\\lib\\javafx.swing.jar",
+        "c:\\Users\\jeff1\\Java\\javafx-sdk-24.0.1\\lib\\javafx.web.jar",
+        "c:\\Users\\jeff1\\Java\\javafx-sdk-24.0.1\\lib\\javafx-swt.jar",
+        "c:\\Users\\jeff1\\Java\\javafx-sdk-24.0.1\\lib\\jdk.jsobject.jar",
+        "c:\\Users\\jeff1\\Java\\javafx-sdk-24.0.1\\lib\\jfx.incubator.input.jar",
+        "c:\\Users\\jeff1\\Java\\javafx-sdk-24.0.1\\lib\\jfx.incubator.richtext.jar"
+    ],
+    "java.configuration.runtimes": [
+        {
+          "name": "JavaSE-24",
+          "path": "C:/Program Files/Eclipse Adoptium/jdk-24.0.0.36-hotspot",
+          "default": true
+        }
+    ],
+    "cSpell.words": [
+        "Krasso",
+        "Liang",
+        "Pedersen"
+    ]
+}
