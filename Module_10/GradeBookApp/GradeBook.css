@@ -1,0 +1,128 @@
+/*
+ * Liang, Y.D. (2019). Introduction to Java Programming and Data Structures: Comprehensive Version (12th ed.). Pearson Education, Inc.
+ * Krasso, R., (2021). CIS 505 Intermediate Java Programming. Bellevue University, all rights reserved.
+ * Pedersen, J. (2025). CIS 505 Intermediate Java Programming.Bellevue University.
+*/
+
+/*
+MAIN
+*/
+.root {
+    -fx-font-family: "Verdana", sans-serif;
+    -fx-background-color: rgb(70, 70, 70);
+}
+
+/*
+LABEL
+*/
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-font-weight: bold;
+}
+
+/*
+INPUTS
+*/
+.combo-box .list-cell {
+    -fx-alignment: center;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.combo-box, .text-field  {
+    -fx-pref-height: 30px;
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-border-color: rgb(0, 0, 0);
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 0 8px;
+}
+
+/*
+BUTTONS
+*/
+.button {
+    -fx-padding: 8 15px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-border-color: rgb(255, 252, 252);
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-border-color: rgb(0, 0, 0);
+    -fx-text-fill: rgb(0, 0, 0);
+}
+
+.clear-button {
+    -fx-background-color: rgb(133, 4, 17);
+}
+
+.clear-button:hover {
+    -fx-background-color: rgb(225, 1, 23);
+}
+
+.save-button {
+    -fx-background-color: rgb(18, 87, 34);
+}
+
+.save-button:hover {
+    -fx-background-color: rgb(3, 173, 31);
+}
+
+.view-button {
+    -fx-background-color: rgb(3, 53, 106);
+}
+
+.view-button:hover {
+    -fx-background-color: rgb(4, 131, 250);
+}
+
+.update-button {
+    -fx-background-color: rgb(142, 112, 7);
+}
+
+.update-button:hover {
+    -fx-background-color: rgb(223, 206, 12);
+}
+
+.export-button {
+    -fx-background-color: rgb(152, 5, 162);
+}
+
+.export-button:hover {
+    -fx-background-color: rgb(243, 65, 219);
+}
+
+/*
+OUTPUTS
+*/
+.table-column {
+    -fx-alignment: center;
+}
+
+.table-view {
+    -fx-border-color: rgb(32, 32, 32);
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header,
+.table-view .column-header .label {
+    -fx-text-fill: rgb(255, 255, 255);
+    -fx-font-weight: bold;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: rgb(32, 32, 32);
+    -fx-border-color: rgb(0, 0, 0);
+    -fx-border-width: 0 0 1px 0;
+}
