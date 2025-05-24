@@ -1,0 +1,193 @@
+/*
+ * Liang, Y.D. (2019). Introduction to Java Programming and Data Structures: Comprehensive Version (12th ed.). Pearson Education, Inc.
+ * Krasso, R., (2021). CIS 505 Intermediate Java Programming. Bellevue University, all rights reserved.
+ * Pedersen, J. (2025). CIS 505 Intermediate Java Programming.Bellevue University.
+*/
+
+/*
+MAIN
+*/
+.root {
+    -fx-font-family: "Verdana", sans-serif;
+    -fx-background-color: rgb(70, 70, 70);
+}
+
+/*
+LABEL
+*/
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: rgb(237, 237, 237);
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0, 3, 3);
+}
+
+/*
+INPUTS
+*/
+.combo-box .list-cell {
+    -fx-alignment: center;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.combo-box, .text-field  {
+    -fx-pref-height: 30px;
+    -fx-background-color: rgb(237, 237, 237);
+    -fx-border-color: rgb(28, 28, 28);
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-padding: 0 8px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0, 5, 5);
+}
+
+.combo-box:showing {
+    -fx-border-radius: 20 20 0 0;
+    -fx-background-radius: 20 20 0 0;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: rgb(237, 237, 237);
+    -fx-border-color: #04ffa3;
+    -fx-border-width: 2px;
+    -fx-border-radius: 0 0 20 20;
+    -fx-background-radius: 0 0 20 20;
+}
+
+.combo-box-popup .list-cell {
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-background-color: rgb(255, 89, 0);
+    -fx-background-radius: 0 0 8 8;
+
+}
+
+.text-field:hover,
+.combo-box:hover {
+    -fx-border-color: rgb(255, 89, 0);
+}
+
+.text-field:focused,
+.combo-box:focused {
+    -fx-border-color: #04ffa3;
+}
+
+/*
+BUTTONS
+*/
+.button {
+    -fx-padding: 8 15 8 15;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-font-size: 16px;
+    -fx-border-width: 2px;
+    -fx-font-weight: bold;
+    -fx-border-color: rgb(160, 160, 160);
+    -fx-text-fill: rgb(237, 237, 237);
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0, 5, 5);
+}
+
+.button:hover {
+    -fx-border-color: rgb(28, 28, 28);
+    -fx-text-fill: rgb(0, 0, 0);
+}
+
+.button .text {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0, 3, 3);
+}
+
+.clear-button {
+    -fx-background-color: rgb(133, 4, 17);
+}
+
+.clear-button:hover {
+    -fx-background-color: rgb(225, 1, 23);
+}
+
+.save-button {
+    -fx-background-color: rgb(18, 87, 34);
+}
+
+.save-button:hover {
+    -fx-background-color: rgb(3, 173, 31);
+}
+
+.view-button {
+    -fx-background-color: rgb(3, 53, 106);
+}
+
+.view-button:hover {
+    -fx-background-color: rgb(4, 131, 250);
+}
+
+.update-button {
+    -fx-background-color: rgb(142, 112, 7);
+}
+
+.update-button:hover {
+    -fx-background-color: rgb(223, 206, 12);
+}
+
+.export-button {
+    -fx-background-color: rgb(152, 5, 162);
+}
+
+.export-button:hover {
+    -fx-background-color: rgb(243, 65, 219);
+}
+
+.delete-button {
+    -fx-background-color: rgb(181, 5, 5);
+}
+
+.delete-button:hover {
+    -fx-background-color: rgb(229, 65, 65);
+}
+
+/*
+OUTPUTS
+*/
+.table-column {
+    -fx-alignment: center;
+}
+
+.table-view {
+    -fx-border-color: rgb(32, 32, 32);
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0, 5, 5);
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent transparent rgb(204, 204, 204);
+    -fx-border-width: 0 0 0 2px;
+}
+
+.table-view .column-header,
+.table-view .column-header .label {
+    -fx-text-fill: rgb(237, 237, 237);
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: rgb(32, 32, 32);
+    -fx-border-color: rgb(0, 0, 0);
+    -fx-border-width: 0 0 1px 0;
+}
+
+.table-view .placeholder .label {
+    -fx-text-fill: rgb(27, 27, 27);
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0, 3, 3);
+}
